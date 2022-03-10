@@ -1,0 +1,7 @@
+jobs:
+
+- name: fivetran_log
+  schedule: 15 8 * * *
+  steps:
+    - name: run fivetran log 
+      command: dbt run --models fivetran_log 

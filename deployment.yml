@@ -1,5 +1,6 @@
+dbtVersion: 1.0.1
 jobs:
-  
+
 - name: fivetran_log
   schedule: 15 8 * * *
   steps:
